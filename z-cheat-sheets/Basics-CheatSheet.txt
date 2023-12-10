@@ -1,0 +1,33 @@
+Looging: Default Looging framework use by spring SLF4j 
+
+Private Logger logger = LoggerFactory.getLogger(getClass());
+
+logger.debug("logging info debug level is{}", value_for_paranthsis);
+loggeer.info("logging info debug level is{}", value_for_paranthsis);
+logger.warn("logging info debug level is{}", value_for_paranthsis);
+
+-------------------------------------
+app.properties:
+logging.level.some.path=debug
+logging.level.some.other.path=error
+logging.file.name = logfile.log
+
+
+
+//-----to kilprocess----///
+
+netstat -ano | findstr :<PORT>
+taskkill /PID <PID> /F
+
+
+//----------- to Render Images --------///
+<img src='<c:url value="/images/Row-01-flex-02-IMG.jpg"></c:url>' />    
+    <h1>Hello Welcome Home Page Aruna</h1>
+    <img src="images/Row-01-flex-02-IMG.jpg" alt="">
+=========================================================================44
+
+to build tailwind css npm command
+
+>>> npx tailwindcss -i ./css/main.css -o ./dist/output.css --watch
+
+(>>> npx tailwindcss -i ./css/main.css -o D:/JEE/Spring-boot-projects/Project-03-Blog-App/Project-03-Blog-app/src/main/resources/static/css/main.css --watch )

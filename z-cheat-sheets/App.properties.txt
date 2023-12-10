@@ -1,0 +1,23 @@
+server.port = 8081
+
+spring.mvc.view.prefix =/src/main/resources/META-INF/resources/WEB-INF/jsp/
+spring.mvc.view.prefix =/WEB-INF/jsp/  (Use This )
+spring.mvc.view.suffix =.jsp
+
+logging.level.org.springframework=debug
+
+spring.datasource.url = jdbc:h2:mem:testdb or jdbc:mysql://localhost:3306/social-media-database
+##--> no need of user name and password for h2 db
+spring.datasource.username = 
+spring.datasource.password = 
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
+
+spring.jpa.defer-datasource-initialization = true (to differ the data source initialization slow to load data.sql)
+spring.jpa.show-sql = true
+
+{
+    "timeStamp": "2023-12-10T21:19:22.94627",
+    "message": "id : 100012",
+    "details": "uri=/users/100012"
+}

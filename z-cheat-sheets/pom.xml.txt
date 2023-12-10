@@ -1,0 +1,56 @@
+----------required dependency for tomcat render JSPs--------------------------------
+<dependency>
+	<groupId>org.apache.tomcat.embed</groupId>
+	<artifactId>tomcat-embed-jasper</artifactId>
+	<scope>provided</scope>
+</dependency>
+
+NOTE: Those are using IntellIj IDE use the scope as `default' i.e.
+<scope>default</scope> i.e scope not needed for intelij idea
+-----------------------------------------------------------------------------------
+JSTL Starter Dependency
+
+///Jakarta API----///
+<dependency>
+<groupId>jakarta.servlet.jsp.jstl</groupId>
+<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+</dependency>
+
+///Jakarta API Implementation ----///
+<dependency>
+<groupId>org.eclipse.jetty</groupId>
+<artifactId>glassfish-jstl</artifactId>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/glassfish-jstl -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>glassfish-jstl</artifactId>
+    <version>11.0.18</version>
+</dependency>
+
+
+// uri  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> ///
+
+---------------------------------------------------------------------------------------
+
+BootStrap 
+
+<dependency>
+<groupId>org.webjars</groupId>
+<artifactId>bootstrap</artifactId>
+<version>5.3.2</version>
+</dependency>
+
+<dependency>
+<groupId>org.webjars</groupId>
+<artifactId>jquery</artifactId>
+<version>3.7.1</version>
+</dependency>
+
+Copy Qualified Name: 
+/META-INF/resources/webjars/bootstrap/5.3.2/css/bootstrap.min.css
+/META-INF/resources/webjars/bootstrap/5.3.2/js/bootstrap.min.js
+ webjars/jquery/3.7.1/jquery.min.js
+
+------------------------------------------------------------------------------------------
+

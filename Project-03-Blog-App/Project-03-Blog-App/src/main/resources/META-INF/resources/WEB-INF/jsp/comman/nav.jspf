@@ -1,0 +1,31 @@
+<header>
+        <nav class="shadow-sm py-3">
+            <div class="navbar flex justify-evenly items-center mx-60">
+                <div class="w-[50%] flex items-center">
+                    <div class="nav-logo"><img src="images/nav-logo.png" alt=""></div>
+                    <ul class="flex items-center ml-5 space-x-10">
+                        <li class="text-sm cursor-pointer hover:underline "><a href="#">Home</a></li>
+                        <li class="text-sm cursor-pointer hover:underline"><a href="#">About</a></li>
+                        <li class="text-sm cursor-pointer hover:underline"><a href="#">Contact us</a></li>
+                        <!-- <li class="text-sm cursor-pointer hover:underline"><a href="#">Catgory</a></li> -->
+                    </ul>
+                </div>
+                <div class="nav-search w-[30%]">
+                    <form action="#">
+                        <div class="flex w-[80%] border  rounded-xl hover:border-blue-200 my-2">
+                            <input class="w-[100%] outline-none rounded-xl p-1" type="text" name="search" id="search"
+                                placeholder="search">
+                            <button class="w-6" type="submit"><img src="images/search-icon.png" alt=""></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="nav-btns flex justify-center space-x-5 w-[20%]">
+                <!--  
+                    <a class="hover:underline" href="#">login</a>
+                    <a class="hover:underline" href="#">Register</a>
+                -->
+                
+                </div>
+            </div>
+        </nav>
+    </header>

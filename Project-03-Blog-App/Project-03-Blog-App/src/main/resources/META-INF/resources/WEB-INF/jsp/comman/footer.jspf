@@ -1,0 +1,9 @@
+<footer>
+	<div class="footer">
+
+		<div
+			class="absolute bottom-1 w-[100%] flex items-center justify-center bg-slate-100">
+			<span class="">Copyright @ 2023, IQUBE, All rights Reserved</span>
+		</div>
+	</div>
+</footer>

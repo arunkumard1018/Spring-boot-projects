@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove and Add Div</title>
+</head>
+
+<body >
+    <div id="success" class="text-center  btn-outline-success" style="color: green; text-align: center; display: none;">Registeration successfull please login to create post</div></div>
+
+    <div id="myDiv">This is a div</div>
+    <button onclick="removeDiv()">Remove Div</button>
+    <button onclick="addDiv()">Add Div</button>
+
+    <script>
+        var myDiv = document.getElementById("success");
+        // var parentDiv = myDiv.parentNode; // Get the parent node
+
+        // function removeDiv() {
+        //     if (myDiv) {
+        //         parentDiv.removeChild(myDiv); // Remove the div from the DOM
+        //     }
+        // }
+
+        function addDiv() {
+
+            // if (!myDiv.parentNode) {
+            //     // parentDiv.appendChild(myDiv); // Add the div back to the DOM
+                
+            // }
+            var myDiv = document.getElementById("success");
+            myDiv.style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>

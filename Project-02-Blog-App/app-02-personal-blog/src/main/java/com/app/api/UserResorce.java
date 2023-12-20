@@ -69,12 +69,13 @@ public class UserResorce {
 		postRepositry.save(post);
 	}
 
-	
-	
 	@GetMapping("/posts")
 	public List<PostEntity> retriveAllPosts(){
 		return postRepositry.findAll();
 		
 	}
+	
+	
+	
 	
 }

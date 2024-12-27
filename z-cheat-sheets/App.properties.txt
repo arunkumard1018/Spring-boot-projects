@@ -19,5 +19,5 @@ spring.jpa.show-sql = true
 {
     "timeStamp": "2023-12-10T21:19:22.94627",
     "message": "id : 100012",
-    "details": "uri=/users/100012"
+    "details": "uri=/users/10"
 }
